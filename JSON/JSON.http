@@ -1,0 +1,11 @@
+@LinkedIn_Notes_HostAddress = http://localhost:5237
+
+GET {{LinkedIn_Notes_HostAddress}}/Blobs/lookup
+Accept: application/json
+
+###
+
+GET {{LinkedIn_Notes_HostAddress}}/Streamings/lookup
+Accept: application/json
+
+###
