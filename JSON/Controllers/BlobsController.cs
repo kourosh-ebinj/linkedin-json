@@ -1,9 +1,5 @@
-using System.Text;
-using Json.More;
 using JSONPath.Helpers;
 using Microsoft.AspNetCore.Mvc;
-using System.Buffers;
-using System.Text.Json;
 using JSONPath.Services;
 
 namespace JSONPath.Controllers;
@@ -28,6 +24,7 @@ public class BlobsController : ControllerBase
         var age = JsonHelper.GetPrimitiveValueByPath<int>(jsonData, "$[?(@._id == '1')].age");
         var friends1 = JsonHelper.GetItemsByPath<string>(jsonData, "$[?(@._id == '1')].friends[*].name");
         var friends2 = JsonHelper.GetItemsByPath<string>(jsonData, "$[?(@._id == '2')].friends[*].name");
+        Console.WriteLine(age);
         Console.WriteLine(string.Join(", ", friends1));
         Console.WriteLine(string.Join(", ", friends2));
 

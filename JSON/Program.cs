@@ -12,7 +12,6 @@ public class Program
         builder.Services.AddHttpContextAccessor();
 
         builder.Services.AddControllers();
-        // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddSingleton<IDataFile,DataFile>();
         builder.Services.AddSingleton<IBlobDataFile, BlobDataFile>();
 
