@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "connectionInfo": "App registration: Kourosh, Tenant: Default Directory (kouroshebinjliveco.onmicrosoft.com - Microsoft Entra ID)",
+      "type": "identityapp.default"
+    }
+  }
+}

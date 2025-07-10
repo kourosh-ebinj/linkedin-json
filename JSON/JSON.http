@@ -1,0 +1,11 @@
+@HostAddress = http://localhost:5237
+
+GET {{HostAddress}}/Blobs/lookup
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/Streamings/lookup
+Accept: application/json
+
+###

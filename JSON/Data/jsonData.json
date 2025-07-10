@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "1",
+    "isActive": true,
+    "balance": "$1,446.35",
+    "age": 32,
+    "eyeColor": "green",
+    "name": "Logan Keller",
+    "gender": "male",
+    "company": "ARTIQ",
+    "email": "logankeller@artiq.com",
+    "phone": "+1 (952) 533-2258",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Colon Salazar"
+      },
+      {
+        "id": 1,
+        "name": "French Mcneil"
+      },
+      {
+        "id": 2,
+        "name": "Carol Martin"
+      }
+    ],
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "2",
+    "isActive": false,
+    "balance": "$3,466.10",
+    "age": 25,
+    "eyeColor": "Blue",
+    "name": "Kourosh Ebinj",
+    "gender": "male",
+    "company": "KEbinj",
+    "email": "KEbinj@artiq.com",
+    "phone": "+90 (533) 840-0000",
+    "friends": [
+      {
+        "id": 1,
+        "name": "Ali Mali"
+      }
+    ],
+    "favoriteFruit": "apple"
+  }
+]
